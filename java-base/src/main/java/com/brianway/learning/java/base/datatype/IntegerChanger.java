@@ -20,7 +20,6 @@ public class IntegerChanger {
         System.out.println("before swap a = " + a + ", b = " + b);
         swap(a, b);
         System.out.println("after swap a = " + a + ", b = " + b);
-
         Integer c = 1;
         System.out.println("(警告:Integer缓存被改了,代码里:Integer c = 1;) 实际c=" + c);
     }

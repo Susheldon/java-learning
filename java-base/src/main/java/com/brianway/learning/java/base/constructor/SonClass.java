@@ -2,7 +2,7 @@ package com.brianway.learning.java.base.constructor;
 
 /**
  * Created by Brian on 2016/4/14.
- *
+ * <p/>
  * 构造方法调用问题
  * 子类构造方法会首先默认调用父类的无参构造方法，无论是否显式写了super();
  */

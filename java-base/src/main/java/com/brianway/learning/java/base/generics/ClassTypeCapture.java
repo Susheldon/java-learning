@@ -24,12 +24,12 @@ public class ClassTypeCapture<T> {
     public static void main(String[] args) {
         ClassTypeCapture<Building> ctt1 =
                 new ClassTypeCapture<Building>(Building.class);
-        System.out.println(ctt1.f(new Building()));
-        System.out.println(ctt1.f(new House()));
+        System.out.println(ctt1.f(new Building()));  //T
+        System.out.println(ctt1.f(new House())); //T
         ClassTypeCapture<House> ctt2 =
                 new ClassTypeCapture<House>(House.class);
-        System.out.println(ctt2.f(new Building()));
-        System.out.println(ctt2.f(new House()));
+        System.out.println(ctt2.f(new Building()));//F
+        System.out.println(ctt2.f(new House()));//T
     }
 }
 

@@ -1,7 +1,7 @@
 package com.brianway.learning.java.base.generics;
 
 /**
- * 末班方法设计模式
+ * 模板方法设计模式
  */
 public class CreatorGeneric {
     public static void main(String[] args) {
@@ -18,6 +18,7 @@ abstract class GenericWithCreate<T> {
     }
 
     abstract T create();
+
 }
 
 class X {
